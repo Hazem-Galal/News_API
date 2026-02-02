@@ -1,0 +1,17 @@
+{
+  "name": "news-reader",
+  "version": "1.0.0",
+  "description": "Modern news reader with React + Vite and Express proxy",
+  "private": true,
+  "scripts": {
+    "server:install": "cd server && npm install",
+    "web:install": "cd web && npm install",
+    "install:all": "npm run server:install && npm run web:install",
+    "server:dev": "cd server && npm run dev",
+    "web:dev": "cd web && npm run dev",
+    "dev": "npm run server:dev & npm run web:dev"
+  },
+  "keywords": ["news", "react", "vite", "express"],
+  "author": "",
+  "license": "MIT"
+}
