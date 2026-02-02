@@ -131,3 +131,5 @@ npm run server:install
 npm run dev
 Set THENEWSAPI_TOKEN in .env before running.
 Never commit real tokens.
+
+Generate the code for this project.
